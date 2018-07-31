@@ -26,6 +26,10 @@ public class AlgoImpl implements Algo{
 		if(visited.containsKey(start)){
 			graph = visited.get(start);
 			System.out.println("this is a class");
+			System.out.println("this is a class2");
+			System.out.println("this is a class3");
+			System.out.println("this is a class4");
+			
 		}else{
 			graph = new RoutingService(edgelist);
 			graph.routing(start);
