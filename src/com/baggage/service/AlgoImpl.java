@@ -25,6 +25,7 @@ public class AlgoImpl implements Algo{
 		RoutingService graph;
 		if(visited.containsKey(start)){
 			graph = visited.get(start);
+			System.out.println("this is a class");
 		}else{
 			graph = new RoutingService(edgelist);
 			graph.routing(start);
